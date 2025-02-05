@@ -8,7 +8,7 @@ namespace AnalyzeDotNetProject {
   class Program {
     static void Main(string[] args) {
       // Replace to point to your project or solution
-      string projectPath = @"C:\root-git\perigon\PerigonDesktop\Perigon\PerigonDesktop.sln";
+      string projectPath = @"A:\root-git\perigon\PerigonDesktop\Perigon\PerigonDesktop.sln";
 
       var dependencyGraphService = new DependencyGraphService();
       var dependencyGraph = dependencyGraphService.GenerateDependencyGraph(projectPath);
